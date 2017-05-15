@@ -1,5 +1,4 @@
 #!/bin/bash
-------- ps aux | grep -m 1 elasticsearch | awk '{print $2}' ------- prints the pid of process
 if [ $# != 1  ]; then
 	echo "Pinger needs One argument, exactly!"
 else
