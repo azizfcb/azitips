@@ -38,3 +38,4 @@ else
 	echo " OK NodeJS STARTED! "
 	nohup node /Users/azouz/Desktop/projects/tracking/server.js </dev/null &>/dev/null &
 fi
+
