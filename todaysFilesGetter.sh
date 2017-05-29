@@ -1,4 +1,4 @@
 #!/bin/bash
 cd /Users/azouz/Documents/
-touch `date "+%D"`_files
-find /Users/azouz/Desktop/ . -size 50k -type f -newer $(date "+%D")_files > /Users/azouz/Documents/`date "+%D"`_files
+touch -t `date +%m%d0000` $(date +"%Y-%m-%d")-files
+find /Users/azouz/ -size +50k -type f -newer $(date +"%Y-%m-%d")-files > /Users/azouz/Documents/$(date +"%Y-%m-%d")_files_list
